@@ -59,3 +59,19 @@ const isCheked = true,
       syka--;
       console.log(gandom);
       console.log(syka);    
+
+      console.log(2*4 == 8);
+
+  /*     const kil = true,
+            kio = false;
+      console.log(kil && !kio);      
+ */
+      let kil = 10,
+          kio = 10;
+         kil++;
+         kio--;
+         let f =10;
+          console.log(kil);
+          console.log(kio);
+
+          console.log(2 + 2 * 2 !== "6" );
