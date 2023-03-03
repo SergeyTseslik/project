@@ -20,4 +20,23 @@ response;
 
 const COLOR_RED ="#F00";
 
+// Отдельно логичские операторы
 
+/* const num = true;
+      ber = false;
+      if (num && ber) {
+console.log("Я ссыт");
+      } else {
+        console.log("Я голоден");
+      }
+      
+        console.log((num && ber)); */
+
+        const hamburger = 2;
+      fries = 1;
+      if (hamburger ===3 && fries ) {
+console.log("Все ссыты");
+      } else {
+        console.log("Мы уходим");
+      }
+      
