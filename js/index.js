@@ -114,3 +114,4 @@ if (hamburger && cola || fries === 3 && nuggets) {
 } else {
   console.log("Не выполняется");
 }
+
