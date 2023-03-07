@@ -115,3 +115,108 @@ if (hamburger && cola || fries === 3 && nuggets) {
   console.log("Не выполняется");
 }
 
+const num = 5;
+const rum = 10;
+console.log("номер: " + num + ", длина: " + rum);      
+
+console.log(typeof false);
+
+const obj = {
+  name:"Johh",
+  age: 24,
+  isMarried: true
+};
+console.log(obj.name);
+
+const apple = 10;
+fries = 54;
+if (apple >= 5 && fries >= 10) {
+  console.log("спасибо за жрачку");
+} else {
+  console.log("Та пошли вы нахуй");
+}
+
+/* let sergey = {
+name: "Sergey",
+age: 18
+}
+let rita = {
+  name:"Rita",
+  age: 13
+}
+if (sergey.age <= 18 && rita.age >=13) {
+  console.log("Можно и нужно встречаться и любить друг друга");
+} else {
+  console.log("Вам не суждено быть вместе");
+} */
+
+/* let sergey = ["Sergey", 18, "Boy"];
+let rita = ["Rita", 13, "Gerl"];
+if (sergey[1] <= 18 && rita[1] >= 13) {
+  console.log("Можно и нужно встречаться и любить друг друга");
+} else {
+  console.log("Вам не суждено быть вместе");
+} */
+
+"use strict";
+
+let num = 50;
+
+/* while (num <= 55) {
+  console.log(num);
+  num++;
+} */
+
+/* do {
+  console.log(num);
+  num++;
+}
+while (num < 55); */
+
+for (let i = 1; i < 10; i++) {
+  if (i === 6) {
+    break;
+    //continue;
+  }
+  console.log(i);
+ 
+}
+
+for (let i = 0; i < 6; i++) {
+  console.log(i);
+  for (let j = 0; j < 3; j++) {
+    console.log(j);
+  }
+}
+//Пирамидка
+let result = "";
+const length = 7;
+for (let i = 1; i < length; i++) {
+for (let j = 0; j < i; j++) {
+result += "*";
+}
+  result += "\n";
+}
+console.log(result);
+//Vitalik
+let vitalik = "";
+const stopchik = 10;
+for (let i = 1; i < stopchik; i++) {
+  for (let j = 0; j < i; j++) {
+    vitalik += "Не балуйся";
+  }
+  vitalik += "\n";
+}
+console.log(vitalik);
+
+
+first:for (let i = 0; i < 3; i++) {
+  console.log(`First level: ${i}`);
+  for (let j = 0; j < 3; j++) {
+    console.log(`Second level: ${j}`);
+      for (let k = 0; k < 5; k++) {
+        if (k === 2) continue first;
+        console.log(`Third level: ${k}`);
+      }
+    }
+}
